@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html lang="se">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Norrgläntan - Naturupplevelser året runt</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header class="site-header">
-            <div class="header-content">
-                <a class="logo" href="#">
-                    <img src="images/logotyp_vit.png"
-                         alt="Norrgläntan logotyp">
-                    <span>Norrgläntan</span>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Norrgläntan – Naturupplevelser året runt</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-content">
+            <a class="logo" href="#">
+                <img
+                    src="images/logotyp_vit.png"
+                    alt="Norrgläntans logotyp"
+                >
+                <span>Norrgläntan</span>
+            </a>
+
+            <nav aria-label="Huvudnavigation">
+                <ul class="navigation">
+                    <li><a href="#upptack">Upptäck</a></li>
+                    <li><a href="#aktiviteter">Aktiviteter</a></li>
+                    <li><a href="#boende">Boende</a></li>
+                    <li><a href="#hitta-hit">Hitta hit</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="upptack">
+            <img
+                class="hero-image"
+                src="images/hero.jpg"
+                alt="En stilla sjö omgiven av skog och berg i solnedgång"
+            >
+
+            <div class="hero-content">
+                <h1>Naturen väntar i Norrgläntan</h1>
+
+                <p>
+                    Upptäck vidsträckta skogar, stilla sjöar och storslagna
+                    vyer. I Norrgläntan finns plats för både äventyr och
+                    avkoppling.
+                </p>
+
+                <a class="button" href="#aktiviteter">
+                    Upptäck Norrgläntan
                 </a>
-
-                <nav aria-label="Huvudnavigation">
-                    <ul class="navigation">
-                        <li><a href="#upptack">Upptäck</a></li>
-                        <li><a href="#aktiviteter">Aktiviteter</a></li>
-                        <li><a href="#boende">Boende</a></li>
-                        <li><a href="#Hitta hit">Hitta hit</a></li>
-                    </ul>
-                </nav>
             </div>
-        </header>
-
-        <main>
-            <section class="hero" id="upptack">
-                <img class="hero-image"
-                     src="images/hero.jpg"
-                     alt="En stilla sjö, skog och berg i solnedgången">
-
-                <div class="hero-content">
-                    <h1>Naturen väntar i Norrgläntan</h1>
-                </div>
-            </section>
-        </main>
-    </body>
+        </section>
+    </main>
+</body>
 </html>
