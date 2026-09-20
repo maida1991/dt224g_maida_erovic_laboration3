@@ -5,12 +5,10 @@ Uppgiften var att bygga en responsiv startsida för den fiktiva naturdestination
 
 ## Länkar
 
-* [GitHub-repository](https://github.com/maida1991/dt224g_maida_erovic_laboration3)
-* [Figma-mockup](https://www.figma.com/design/Qc5nMHogJn65pANc3HuZPo/Norrgl%C3%A4ntan-%E2%80%93-Laboration-3?node-id=0-1)
-* Publicerad webbplats: 
-Git: https://maida1991.github.io/dt224g_maida_erovic_laboration3/
-Netlify: https://6ab02e9bf08a7158c459a944--dt224glaboration3.netlify.app/
-
+- [GitHub-repository](https://github.com/maida1991/dt224g_maida_erovic_laboration3)
+- [Figma-mockup](https://www.figma.com/design/Qc5nMHogJn65pANc3HuZPo/Norrgl%C3%A4ntan-%E2%80%93-Laboration-3?node-id=0-1)
+- [Publicerad webbplats – GitHub Pages](https://maida1991.github.io/dt224g_maida_erovic_laboration3/)
+- [Publicerad webbplats – Netlify](https://dt224glaboration3.netlify.app/)
 
 ## Webbplatsens innehåll
 
