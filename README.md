@@ -47,13 +47,20 @@ alt-texter för bilder och synliga fokusmarkeringar för tangentbordsnavigering.
 
 ## Projektstruktur
 
+```text
 dt224g_maida_erovic_laboration3/
 ├── index.html
 ├── css/
 │   └── style.css
 ├── images/
+│   ├── hero.jpg
+│   ├── logotyp_svart.png
+│   ├── logotyp_vit.png
+│   ├── paddla.jpg
+│   ├── upptack.jpg
+│   └── vandra.jpg
 └── README.md
-
+```
 ## Skapad av
 
 Maida Erovic
