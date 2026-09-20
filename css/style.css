@@ -152,3 +152,180 @@ a {
     outline: 3px solid #f2c14e;
     outline-offset: 3px;
 }
+/* Introduction */
+
+.section-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introduction {
+    padding: 1rem 1.5rem 3rem;
+    text-align: center;
+}
+
+.introduction h2,
+.activities h2 {
+    margin: 0 0 1.5rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+}
+
+.introduction p {
+    max-width: 750px;
+    margin: 0 auto 1rem;
+}
+
+.introduction p:last-child {
+    margin-bottom: 0;
+}
+
+/* Activities */
+
+.activities {
+    padding: 3rem 1.5rem;
+    background-color: #f4f5f2;
+}
+
+.activities h2 {
+    text-align: center;
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.activity-card {
+    overflow: hidden;
+
+    background-color: var(--color-white);
+    border: 1px solid var(--color-primary);
+    border-radius: 0.75rem;
+}
+
+.activity-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+}
+
+.card-content p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .activity-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
+    .activity-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+}
+/* Planera ditt besök */
+
+.plan-section {
+    padding: 4rem 1.5rem;
+    text-align: center;
+}
+
+.plan-section h2 {
+    margin: 0 0 1rem;
+    font-size: 1.75rem;
+}
+
+.plan-section p {
+    max-width: 750px;
+    margin: 0 auto 1.5rem;
+}
+
+
+/* Footer */
+
+.site-footer {
+    padding: 3rem 1.5rem;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.footer-brand img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.footer-brand h2,
+.footer-contact h2,
+.footer-links h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.25rem;
+}
+
+.footer-brand p {
+    margin: 0;
+}
+
+.footer-contact,
+.footer-links {
+    text-align: center;
+}
+
+.footer-contact address {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-style: normal;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.5rem;
+}
+
+.site-footer a {
+    color: var(--color-white);
+}
+
+.site-footer a:hover {
+    text-decoration: none;
+}
+
+.site-footer a:focus-visible {
+    outline: 3px solid #f2c14e;
+    outline-offset: 3px;
+}
